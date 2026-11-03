@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "seo-backlink-hub": {
+      "url": "https://hub.recmoment.net/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SEO_BACKLINK_HUB_API_KEY}"
+      }
+    }
+  }
+}

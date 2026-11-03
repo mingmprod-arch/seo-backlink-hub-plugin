@@ -1,0 +1,22 @@
+{
+  "name": "seo-backlink-hub",
+  "version": "1.0.0",
+  "description": "SEO Backlink Hub: search a curated directory of guest-post sites, match link partners, draft outreach pitches, and track link outcomes through a remote MCP server.",
+  "author": { "name": "Rec Moment", "email": "hub@recmoment.net" },
+  "homepage": "https://recmoment.net/hub/",
+  "repository": "https://github.com/mingmprod-arch/seo-backlink-hub-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "backlinks", "guest-post", "link-building", "mcp"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SEO_BACKLINK_HUB_API_KEY": {
+        "type": "string",
+        "title": "SEO Backlink Hub member key",
+        "description": "Your Hub member API key (starts with rmh_). Sent as a Bearer token."
+      }
+    },
+    "required": ["SEO_BACKLINK_HUB_API_KEY"]
+  }
+}
